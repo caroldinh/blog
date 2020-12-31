@@ -26,7 +26,9 @@
                 </p><br>
                 <h3>Categories:</h3>
                     {% for category in site.categories %}
-                    <a class="tag" href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+                    {% assign cat = category | first | slugify %}
+                    {% assign link = "/category/" | append: cat | append: "/index.html" %}
+                    <a class="tag" href={{ link | relative_url }}>{{ category | first }}</a>
                     {% endfor %}
             </div>
 

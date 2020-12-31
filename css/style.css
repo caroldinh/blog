@@ -1,0 +1,214 @@
+
+
+:root {
+    --colorAccent: #31e0ff;
+    --warmAccent: #ff8d41;
+    --colorPrimary: #ccccdd;
+    --colorBackground: #0d1d31;
+    --fontPrimary: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    --fontHead: "Lucida Console", monospace;
+  }
+  
+  html{
+    scroll-behavior: smooth !important;
+  }
+  
+  body{
+    background-color:var(--colorBackground) !important;
+    color: var(--colorPrimary) !important;
+    padding-left: 10vw;
+    padding-right: 15vw;
+    margin-bottom:10vw;
+    font-family: var(--fontPrimary) !important;
+  }
+  
+  p{
+    font-family: var(--fontPrimary) !important;
+    font-size: calc(8px + 0.5vw) !important;
+    line-height: 175%;
+    font-weight: 0 !important;
+  }
+  
+  #navbar{
+    top: 10% !important;
+    /* left: 10% !important; */
+    height: 80% !important;
+    position:fixed !important;
+    transition: 0.5s;
+    max-width: 20% !important;
+  }
+  
+  #scrollview{
+    margin-left: 35% !important;
+    z-index: -1 !important;
+  }
+  
+  .navlinks{
+    margin:auto !important;
+    font-family: var(--fontHead) !important;
+    font-size: calc(8px + 0.5vw);
+    transition:0.6s;
+    z-index:10000;
+  }
+  
+  .divider{
+    margin-bottom: 10% !important;
+  }
+  
+  h1{
+    padding-top: 10% !important;
+    color: var(--colorAccent) !important;
+    font-family: var(--fontHead);
+    font-size: calc(12px + 0.5vw) !important;
+  }
+  
+  h2{
+    margin-top: 5% !important;
+    margin-bottom: 2% !important;
+    color: var(--warmAccent);
+    font-family: var(--fontHead);
+    font-size: calc(10px + 0.5vw) !important;
+  }
+  
+  .nopadding{
+    padding-top: 0 !important;
+  }
+  
+  .social{
+    filter: contrast(1000%) invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(145%);
+    max-width: 18px;
+    max-height: 18px;
+    margin-right: 5px;
+    opacity: 80%;
+  }
+  
+  .social:hover{
+    opacity: 100%;
+  }
+  
+  .lightText{
+    color: var(--warmAccent) !important;
+    opacity: 80%;
+  }
+  
+  a{
+    color: #5bf0a1;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .postcard{
+    color: var(--colorPrimary);
+    text-decoration: none;
+    border: 0.5px solid var(--colorPrimary);
+    display:block;
+    border-radius: 10px;
+    padding: 2vw;
+    transition: 0.3s;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    z-index: 10000;
+  }
+
+  .postcard:hover{
+    border-radius: 50px;
+    
+  }
+
+  .cardlink{
+    text-decoration: none !important;
+  }
+  
+.card-content{
+  z-index: -1;
+}
+
+  @media only screen and (hover: none) and (pointer: coarse){
+  
+    #scrollview{
+        margin-left: 40% !important;
+    }
+    .navlinks{
+        font-size: 1.5em !important;
+    }
+    p{
+        font-size: 1.25em !important;
+    }
+    h1{
+        font-size: 1.2em !important;
+    }
+    
+    
+  }
+  
+  #wcb{
+    position: fixed;
+    left: 10vw !important;
+    top: 82% !important;
+    align-self: left !important;
+    align-content: left !important;
+    align-items: left !important;
+    float: left !important;
+    margin-top: 0px !important;
+    margin-bottom:20% !important;
+    font-size: 0.9vw !important;
+  }
+  
+  .art{
+    max-width: 60%;
+    max-height: 300px;
+    filter:brightness(1);
+    transition:0.6s;
+  }
+  
+  .art:hover{
+    filter:brightness(0.7);
+    transition:0.6s;
+  }
+  
+  .portrait{
+    border-radius:10px;
+    width: 15vw;
+    transition:0.6s;
+  }
+  
+  .portrait:hover{
+    filter:brightness(0.7);
+    transition:0.6s;
+  }
+  
+  .navlink{
+    display:block !important;
+    margin-bottom:2%;
+  }
+  
+  .cw{
+    background-color:var(--colorPrimary);
+    display:inline;
+    border-radius:0.5;
+    transition:0.2s;
+    padding-left:2px;
+    padding-right:2px;
+  }
+  
+  .cw:hover{
+    background-color: var(--colorBackground);
+    transition:0.2s;
+  }
+
+  .sidebar-content{
+    align-content:justify;
+    text-align:justify;
+  }
+
+  .greentext{
+    color: #5bf0a1 !important;
+  }
+
+  .title{
+    z-index:1000 !important;
+  }

@@ -39,7 +39,7 @@ plugins:
 paginate: 5
 paginate_path: "/page:num/"
 
-permalink: blog/:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default.

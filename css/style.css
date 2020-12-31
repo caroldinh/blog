@@ -7,6 +7,7 @@
     --colorBackground: #0d1d31;
     --fontPrimary: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     --fontHead: "Lucida Console", monospace;
+    --green: #5bf0a1;
   }
   
   html{
@@ -34,7 +35,6 @@
     /* left: 10% !important; */
     height: 80% !important;
     position:fixed !important;
-    transition: 0.5s;
     max-width: 20% !important;
   }
   
@@ -47,7 +47,6 @@
     margin:auto !important;
     font-family: var(--fontHead) !important;
     font-size: calc(8px + 0.5vw);
-    transition:0.6s;
     z-index:10000;
   }
   
@@ -206,9 +205,33 @@
   }
 
   .greentext{
-    color: #5bf0a1 !important;
+    color: var(--green) !important;
   }
 
   .title{
     z-index:1000 !important;
+  }
+
+  .tag{
+    color: var(--colorBackground) !important;
+    background-color: var(--green) !important;
+    display:inline-block;
+    border-radius: 15px;
+    filter: brightness(1);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .tag:hover{
+    animation: darken 0.3s;
+    filter: brightness(0.6);
+  }
+
+  @keyframes darken{
+    from{
+      filter: brightness(1);
+    } to{
+      filter: brightness(0.6);
+    }
   }

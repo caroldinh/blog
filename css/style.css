@@ -25,7 +25,7 @@
   
   p{
     font-family: var(--fontPrimary) !important;
-    font-size: calc(8px + 0.5vw) !important;
+    font-size: 1em !important;
     line-height: 175%;
     font-weight: 0 !important;
   }
@@ -46,7 +46,7 @@
   .navlinks{
     margin:auto !important;
     font-family: var(--fontHead) !important;
-    font-size: calc(8px + 0.5vw);
+    font-size: 1em;
     z-index:10000;
   }
   
@@ -58,7 +58,7 @@
     padding-top: 10% !important;
     color: var(--colorAccent) !important;
     font-family: var(--fontHead);
-    font-size: calc(12px + 0.5vw) !important;
+    font-size: 1.5em;
   }
   
   h2{
@@ -66,7 +66,7 @@
     margin-bottom: 2% !important;
     color: var(--warmAccent);
     font-family: var(--fontHead);
-    font-size: calc(10px + 0.5vw) !important;
+    font-size: 1em !important;
   }
   
   .nopadding{
@@ -127,16 +127,7 @@
 }
   
   #wcb{
-    position: fixed;
-    left: 10vw !important;
-    top: 82% !important;
-    align-self: left !important;
-    align-content: left !important;
-    align-items: left !important;
-    float: left !important;
-    margin-top: 0px !important;
-    margin-bottom:20% !important;
-    font-size: 0.9vw !important;
+    margin-top: 5vw;
   }
   
   .art{

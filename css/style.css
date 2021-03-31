@@ -31,11 +31,11 @@
   }
   
   #navbar{
-    top: 10% !important;
+    top: 10%;
     /* left: 10% !important; */
-    height: 80% !important;
-    position:fixed !important;
-    max-width: 20% !important;
+    height: fit-content;
+    position:fixed;
+    max-width: 20%;
   }
   
   #scrollview{
@@ -125,24 +125,6 @@
 .card-content{
   z-index: -1;
 }
-
-  @media only screen and (hover: none) and (pointer: coarse){
-  
-    #scrollview{
-        margin-left: 40% !important;
-    }
-    .navlinks{
-        font-size: 1.5em !important;
-    }
-    p{
-        font-size: 1.25em !important;
-    }
-    h1{
-        font-size: 1.2em !important;
-    }
-    
-    
-  }
   
   #wcb{
     position: fixed;
@@ -235,4 +217,48 @@
     } to{
       filter: brightness(0.6);
     }
+  }
+
+  .link-small{
+    color: var(--colorAccent);
+    display: block;
+    margin-top: 5vw;
+  }
+
+  @media (max-width:1000px) { 
+
+    body{
+      padding-right: 10vw !important;
+    }
+
+    #navbar{
+      position: relative;
+      width: 100% !important;
+      max-width: 100% !important;
+      align-content: center !important;
+      text-align: center !important;
+    }
+
+    #navbar p, h1{
+      float: center !important;
+      margin-left: auto;
+      margin-right: auto;
+      align-self: center !important;
+      text-align: center !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    #navlinks{
+      height: fit-content;
+    }
+  
+    #scrollview{
+      position: relative;
+      margin-top: 30% !important;
+      width: 100% !important;
+      margin-left: 0% !important;
+      margin-right: 5vw !important;
+    }
+  
   }

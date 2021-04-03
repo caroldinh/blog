@@ -4,7 +4,7 @@
     --colorAccent: #31e0ff;
     --warmAccent: #ff8d41;
     --colorPrimary: #ccccdd;
-    --colorBackground: #0d1d31;
+    --colorBackground: #000000;
     --fontPrimary: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     --fontHead: "Lucida Console", monospace;
     --green: #5bf0a1;
@@ -33,7 +33,6 @@
   #navbar{
     top: 10%;
     /* left: 10% !important; */
-    height: fit-content;
     position:fixed;
     max-width: 20%;
   }
@@ -103,7 +102,6 @@
     color: var(--colorPrimary);
     text-decoration: none;
     border: 0.5px solid var(--colorPrimary);
-    display:block;
     border-radius: 10px;
     padding: 2vw;
     transition: 0.3s;
@@ -120,11 +118,13 @@
 
   .cardlink{
     text-decoration: none !important;
+    z-index: 100000 !important;
+    color: none;
   }
-  
-.card-content{
-  z-index: -1;
-}
+
+  .cardlink:hover{
+    text-decoration: none !important;
+  }
   
   #wcb{
     margin-top: 5vw;
@@ -223,7 +223,7 @@
     }
 
     #navbar{
-      position: relative;
+      position: static;
       width: 100% !important;
       max-width: 100% !important;
       align-content: center !important;
@@ -239,17 +239,31 @@
       align-items: center !important;
       justify-content: center !important;
     }
-
-    #navlinks{
-      height: fit-content;
-    }
   
     #scrollview{
-      position: relative;
-      margin-top: 30% !important;
+      position: static;
       width: 100% !important;
       margin-left: 0% !important;
-      margin-right: 5vw !important;
+      margin-right: 0% !important;
+      z-index: -1 !important;
     }
-  
+
+    .postcard{
+      z-index: 100000 !important;
+    }
+
+    .postcard:hover{
+      border-radius: 50px !important;
+      
+    }
+
+    .card-content:hover .postcard{
+      border-radius: 50px !important;
+    }
+    
+    #scrollview::after {
+      clear: both;
+      display: table;
+    }
+
   }

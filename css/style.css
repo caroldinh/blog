@@ -29,6 +29,10 @@
     line-height: 175%;
     font-weight: 0 !important;
   }
+
+  strong{
+    color:var(--warmAccent);
+  }
   
   #navbar{
     top: 10%;
@@ -90,7 +94,7 @@
   }
   
   a{
-    color: #5bf0a1;
+    color: #5bf0a1 !important;
     text-decoration: none;
   }
   
@@ -216,6 +220,10 @@
     margin-top: 5vw;
   }
 
+  img{
+    width: 100%;
+  }
+
   @media (max-width:1000px) { 
 
     body{
@@ -267,3 +275,4 @@
     }
 
   }
+

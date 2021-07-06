@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1><a href={{"/" | relative_url}}>←--</a> {{page.title}}</h1>
+<h1><a href={{"/" | relative_url}}>←</a> {{page.title}}</h1>
 <p class="lightText">{{ page.date | date: "%-d %B %Y" }}</p>
 {{ content }}
 {% for category in page.categories %}

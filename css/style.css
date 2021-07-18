@@ -39,6 +39,12 @@
     /* left: 10% !important; */
     position:fixed;
     max-width: 20%;
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent; 
   }
   
   #scrollview{
@@ -63,7 +69,17 @@
     font-family: var(--fontHead);
     font-size: 1.5em;
   }
-  
+
+  .title{
+    text-decoration: none;
+    color: var(--colorAccent) !important;
+    z-index:1000 !important;
+  }
+
+  .title:hover{
+    text-decoration: underline;
+  }
+
   h2{
     margin-top: 5% !important;
     margin-bottom: 2% !important;
@@ -97,8 +113,12 @@
     color: #5bf0a1 !important;
     text-decoration: none;
   }
+
+  #wcb a{
+    color: inherit !important;
+  }
   
-  a:hover{
+  #scrollView a:hover{
     text-decoration: underline;
   }
 
@@ -183,10 +203,6 @@
 
   .greentext{
     color: var(--green) !important;
-  }
-
-  .title{
-    z-index:1000 !important;
   }
 
   .tag{

@@ -5,9 +5,14 @@
     --warmAccent: #ff8d41;
     --colorPrimary: #ccccdd;
     --colorBackground: #000000;
-    --fontPrimary: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    --fontHead: "Lucida Console", monospace;
+    --fontPrimary: "Ubuntu", sans-serif;
+    --fontHead: "Ubuntu", sans-serif;
     --green: #5bf0a1;
+    --cyan: #7fecd9;
+    --dark-green: #548d56;
+    --orange: #f26112;
+    --dark-cyan: #198785;
+    --dark: #000000;
   }
   
   html{
@@ -15,12 +20,41 @@
   }
   
   body{
-    background-color:var(--colorBackground) !important;
+    background-image: url('../images/titan.jpg');
+    background-color: var(--colorBackground);
+    background-repeat: no-repeat;
+    background-size: 30vw auto;
+    background-attachment: fixed;
+    background-position: -10% 80%;
     color: var(--colorPrimary) !important;
     padding-left: 10vw;
     padding-right: 15vw;
     margin-bottom:10vw;
     font-family: var(--fontPrimary) !important;
+  }
+
+  #noise::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 80%;
+  }
+
+  #noise{
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: black;
+      background-image: url('../images/noise.jpg');
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 16%;
+      mix-blend-mode: lighten;
+      z-index: -10 !important;
   }
   
   p{
@@ -37,9 +71,9 @@
   #navbar{
     top: 10%;
     /* left: 10% !important; */
-    position:fixed;
+    position:absolute;
     max-width: 20%;
-    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {
@@ -114,6 +148,10 @@
     text-decoration: none;
   }
 
+  h3{ 
+    color: white;
+  }
+
   #wcb a{
     color: inherit !important;
   }
@@ -125,19 +163,43 @@
   .postcard{
     color: var(--colorPrimary);
     text-decoration: none;
-    border: 0.5px solid var(--colorPrimary);
-    border-radius: 10px;
-    padding: 2vw;
     transition: 0.3s;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
     z-index: 10000;
+    position: relative;
+    border-radius: 30px;
+    padding: 8%;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    -moz-box-shadow:    inset 3px 3px 10px 0px rgb(255, 255, 255, 0.1);
+    -webkit-box-shadow: inset 3px 3px 10px 0px rgb(255, 255, 255, 0.1);
+    box-shadow:         inset 3px 3px 10px 0px rgba(255, 255, 255, 0.1);
+    margin-bottom: 5%;
   }
 
   .postcard:hover{
     border-radius: 50px;
-    
+  }
+
+  .glass {
+    background:  radial-gradient(ellipse at top, var(--dark-green), transparent),
+                radial-gradient(ellipse at bottom, var(--orange), var(--dark-cyan));
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    opacity: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s;
+  }
+
+  .postcard:hover .glass {
+    border-radius: 50px;
+    opacity: 40%;
   }
 
   .cardlink{
@@ -207,7 +269,7 @@
 
   .tag{
     color: var(--colorBackground) !important;
-    background-color: var(--green) !important;
+    background-color: var(--warmAccent) !important;
     display:inline-block;
     border-radius: 15px;
     filter: brightness(1);
@@ -239,6 +301,9 @@
   img{
     width: 100%;
   }
+
+
+  /************************* MOBILE ***************************/
 
   @media (max-width:1000px) { 
 
@@ -273,6 +338,7 @@
     }
 
     .postcard{
+      width: 64vw !important;
       z-index: 100000 !important;
     }
 

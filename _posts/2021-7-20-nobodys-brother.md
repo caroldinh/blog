@@ -1,10 +1,16 @@
 ---
 title: Nobody's Brother
 layout: post
-date: 2021-6-4
-categories: writing sff
+date: 2021-7-20
+categories: fiction sff
 excerpt: Speculative short story. Approx. 1,200 words. Content warning for death.
 ---
+
+*[Note: This was the first story I wrote in 2021. I was super proud of it for months but no longer think it represents my best storytelling, so I will not be sending it anywhere else. I'm still really fond of it and really proud of some aspects, though. It was a lot of fun to write.]*  
+
+*[Content warning for death.]*  
+
+--  
 
 He always seemed inflammable: Atlan the flamethrower, nobody’s brother. Everyone knew him by his name. Everyone but me believed that he could never burn.  
 

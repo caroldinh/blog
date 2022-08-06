@@ -2,7 +2,7 @@
 title: The Second Piano Concerto
 layout: post
 date: 2021-7-18
-categories: music history
+categories: music history essay
 excerpt: Listen to the opening bars of the Concerto’s second movement. Pay attention to the piano—you will find yourself enraptured by a sequence of broken chords, simultaneously aching and optimistic in E major. Like green light reflecting from a lighthouse as you head out to sea.
 ---
 

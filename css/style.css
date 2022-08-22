@@ -104,14 +104,15 @@
     font-size: 1.5em;
   }
 
+  h1 a {
+    color: var(--colorAccent);
+    background-image: linear-gradient(var(--colorAccent), var(--colorAccent));
+  }
+
   .title{
     text-decoration: none;
     color: var(--colorAccent) !important;
     z-index:1000 !important;
-  }
-
-  .title:hover{
-    text-decoration: underline;
   }
 
   h2{
@@ -143,11 +144,6 @@
     opacity: 80%;
   }
   
-  a{
-    color: #5bf0a1 !important;
-    text-decoration: none;
-  }
-
   h3{ 
     color: white;
   }
@@ -155,9 +151,23 @@
   #wcb a{
     color: inherit !important;
   }
+
+  a{
+    color: var(--green);
+    text-decoration: none;
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--green), var(--green));
+    transition: background-size 0.2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+  }
   
-  #scrollView a:hover{
-    text-decoration: underline;
+  a:hover{
+    background-size: 100% 0.1em;
   }
 
   .postcard{
@@ -268,6 +278,7 @@
   }
 
   .tag{
+    all: unset;
     color: var(--colorBackground) !important;
     background-color: var(--warmAccent) !important;
     display:inline-block;
@@ -280,6 +291,7 @@
   }
 
   .tag:hover{
+    cursor: pointer;
     animation: darken 0.3s;
     filter: brightness(0.6);
   }
@@ -293,9 +305,10 @@
   }
 
   .link-small{
-    color: var(--colorAccent);
-    display: block;
+    display: table;
     margin-top: 5vw;
+    color: var(--cyan);
+    background-image: linear-gradient(var(--cyan), var(--cyan));
   }
 
   img{

@@ -1,0 +1,24 @@
+---
+title: Hello World 2
+eayout: post
+date: 2023-6-30
+categories: tech
+excerpt: Lately I've supposed that occupying my own space on the Internet—aside from my art Instagram, aside from the Reddit and Twitter profiles I only use to stalk celebrities and fandom news—is radical in its own byte-sized way. Leeching big tech resources for your silliest thoughts that only you will read is as punk as Xeroxing zines on the company's hardware (which I haven't done) or assembling them on company time (which I have). Sure, this blog is hosted by Google Firebase but maintaining it and posting on it is somewhat of a revolution. 
+
+---
+
+So the Internet is fucked, apparently. Fucked by SEO and monetization and big tech trying to capitalize on everything. Elon Musk bought Twitter and degraded the value of the blue check, the realtime channel of world news. Reddit users shut the site down for a short while in protest of their new pricing policies for using their API. (Good for them, but bad for people who searched up "[common experience] reddit" during that window!) Facebook is more-or-less obsolete, Instagram is an e-mall disguised as a way of keeping in touch with friends, I'm not touching TikTok, and Discord servers are private to their own communities. I haven't yet given this Mastodon thing a go. I keep seeing (on Twitter, where else?) that the Internet was so much better back then, when it was a geek playground filled with rich independent forums, self-hosted websites, and shitty CSS.    
+
+Well, too bad, because I wasn't around. But lately I've supposed that occupying my own space on the Internet—aside from my art Instagram, aside from the Reddit and Twitter profiles I only use to stalk celebrities and fandom news—is radical in its own byte-sized way. Leeching big tech resources for your silliest thoughts that only you will read is as punk as Xeroxing zines on the company's hardware (which I haven't done) or assembling them on company time (which I have). Sure, this blog is hosted by Google Firebase but maintaining it and posting on it is somewhat of a revolution.     
+
+Behold! My grandiosity! To think that I could bring about a revolution with the blog I coded as a teenager.   
+
+But really, imagine how revolutionary it would be if everyone abandoned social media and started hosting and posting their own personal blogs. This is a pipe dream. Not everyone has the knowledge or resources to host a site on the web (I don't even know how I'd approach migrating Cyblog to an independent hosting service). Maybe what I mean is that education is revolutionary, that tech literacy is revolutionary, that re-distributing the content monopoly of big tech is revolutionary, that re-claiming the means to digital publication is revolutionary. I guess that's why I make zines.   
+
+You know, there are *some* platforms out there that I'm happy to be contributing content to. I love how Itch fosters the indie community and champions creators in the very way the site works. I love putting reviews on Storygraph for my own personal habit-tracking and would choose them any day over the more popular "rainforest"-owned alternative.   
+
+I think I'll continue posting book and media reviews here—or maybe I'll summarize the reviews I post on Storygraph and elsewhere—because god knows I have plenty of opinions. Or maybe I'll put lists of bite-syzed radical shower thoughts I've had throughout the day, like, if I pay $X for lunch and make $3X per hour then I have no excuse to take a lunch break shorter than 20 minutes to make that lost 1/3 hour worth its while. Will you look at that, interning at a major media company by day and writing a blog that no one will fucking read by night!     
+
+There's this [blog](https://haggisbuffet.blogspot.com/){:target="_blank"} that I've really enjoyed stalking recently, written by ümelaut aka thrash metal zinester Brian Lew. He hasn't posted since 2021 but he had posted more-or-less consistently since 2004. It's hilarious to see the passive-agressive Asian-Americanness interspersed between the metal show reviews, even if he can be a bit boomer-ish at times. Boy, do I admire a boomer's dedication to their blogs! Didn't Kirk Hammett used to have a horror blog? I wish the old site was still active because there are only a few posts on the new site.   
+
+Metalheads aside, I'm getting tired and also gearing up for the first day of Camp Nanowrimo, so exercising my linguistic muscles via this void to scream in will serve me well. I haven't posted in almost a year, so this promise may mean nothing, but for now I will strive to post here more. I have a lot of thoughts, after all. Enough to fuel this one-man blog-revolution.  

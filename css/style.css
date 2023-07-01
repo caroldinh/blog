@@ -314,6 +314,18 @@
   img{
     width: 100%;
   }
+  
+  .spoiler {
+      background-color: var(--colorPrimary);
+      transition: 0.3s;
+      transition-timing-function: ease-in-out;
+      border-radius: 5px;
+  }
+
+  .spoiler:hover {
+      background-color: unset;
+      cursor: pointer;
+  }
 
 
   /************************* MOBILE ***************************/

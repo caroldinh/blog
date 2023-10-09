@@ -6,6 +6,12 @@
 
         <title>cd ~/blog</title>
 
+        <meta charset="UTF-8">
+        <meta name="description" content="A tech zinester's blog">
+        <meta name="keywords" content="blog, tech, art">
+        <meta name="author" content="Carol Dinh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href={{ "/css/style.css" | relative_url }}>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,18 +31,14 @@
                     long. Expect <span class="greentext">media reviews, tech rambles, scrapped drafts,</span> and 
                     <span class="greentext">any unrelated rambling point in between.</span>
                 </p>
-                <p class="lightText sidebar-content">Built using <span class="greentext">Jekyll!</span> This site 
-                    low-key exists as a coding exercise to learn this framework. I suppose a void to shout into 
-                    is an built-in benefit.
-                </p><br>
+                <p class="lightText sidebar-content">Built using <span class="greentext">Jekyll</span> and deployed 
+                with GitHub Pages.</p><br>
                 <h3>Categories:</h3>
                     {% for category in site.categories %}
                     {% assign cat = category | first | slugify %}
                     {% assign link = "/category/" | append: cat | append: "/index.html" %}
                     <a class="tag" href={{ link | relative_url }}>{{ category | first }}</a>
                     {% endfor %}
-                <div id="wcb" class="carbonbadge wcb-d"></div>
-                <script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>
             </div>
 
         </div>
@@ -46,6 +48,13 @@
 
         </div>
 
+        <div id="footer">
+
+            <div id="wcb" class="carbonbadge wcb-d"></div>
+            <script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>
+            <a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." style="width: auto; height: 43px; border: 1px solid #000; margin: auto;" /></a>
+
+        </div>
         
     </body>
 

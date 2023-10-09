@@ -342,6 +342,16 @@
       cursor: pointer;
   }
 
+  .archive-entry {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+  }
+
+  .archive-entry .date {
+    width: 20%;
+  }
+
   #footer {
     display: flex;
     flex-direction: column;
